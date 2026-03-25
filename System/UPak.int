@@ -1,0 +1,106 @@
+[Public]
+[Public]
+Object=(Name=UPak.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.UPakFemaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="UPak Female 1")
+Object=(Name=UPak.UPakFemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="UPak Female 2")
+Object=(Name=UPak.UPakMaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="UPak Male 1")
+Object=(Name=UPak.UPakMaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="UPak Male 2")
+Object=(Name=UPak.UPakMaleThree,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="UPak Male 3")
+
+[TransitionNullHUD]
+Statheader=Kill Statistics: 
+CARStat=Combat Assault Rifle
+RLStat=RocketLauncher
+GLStat=GrenadeLauncher
+ASMDStat=ASMD
+AutomagStat=Automag
+DispersionStat=Dispersion Pistol
+EightballStat=Eightball
+FlakCannonStat=FlakCannon
+GESBioRifleStat=GES BioRifle
+MinigunStat=Minigun
+RazorjackStat=Razorjack
+RifleStat=Rifle
+StingerStat=Stinger
+TotalStat=Total Kills
+LogEntryMsg=LOG ENTRY: 
+
+[UPakSinglePlayer]
+GameName=Unreal Mission Pack
+
+[GrenadeLauncher]
+PickupMessage="You got the GrenadeLauncher."
+ItemName=GrenadeLauncher
+
+[Cloak]
+ExpireMessage=disengaged.
+PickupMessage=You got the Cloaking Device.
+ItemName=Cloaking Device
+M_Activated=" engaged"
+M_Deactivated=" disengaged"
+
+[CARifle]
+PickupMessage=You got the Combat Assault Rifle
+ItemName=Combat Assault Rifle
+
+[RocketLauncher]
+PickupMessage=You got the RocketLauncher.
+ItemName=RocketLauncher
+
+[UPakChooseGameMenu]
+MenuList[0]="Return to Na Pali"
+MenuList[1]=Unreal
+MenuList[2]=Unreal
+
+[UPakDebugger]
+ItemName=UPak Debugger
+
+[UPakScubaGear]
+PickupMessage=You picked up the SCUBA gear
+M_Deactivated=deactivated... Recharging.
+
+[UPakMaleOne]
+MenuName=Male 1
+
+[UPakFemaleOne]
+MenuName=Female 1
+
+[UPakFemaleTwo]
+MenuName=Female 2
+
+[UPakMaleThree]
+MenuName=Male 3
+
+[UPakMaleTwo]
+MenuName=Male 2
+
+[CARifleClip]
+PickupMessage=You got a 50 bullet CAR clip.
+
+[GLAmmo]
+PickupMessage=You picked up 10 grenades.
+
+[RLAmmo]
+PickupMessage=You got 10 rockets.
+
+[CompTablet]
+PickupMessage=You got the CompTablet.
+
+[GravityMatch]
+GameName=GravityMatch
+
+[CloakMatch]
+GameName=CloakMatch
+
+[TerranWeaponMatch]
+GameName=TerranWeaponMatch
+
+[MarineMatch]
+GameName=MarineMatch
+

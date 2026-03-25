@@ -1,0 +1,101 @@
+[Public]
+Object=(Name=UPak.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+
+[TransitionNullHUD]
+Statheader=Estadísticas de muertes: 
+CARStat=Rifle de asalto
+RLStat=Lanzacohetes
+GLStat=Lanzagranadas
+ASMDStat=ASMD
+AutomagStat=Automag
+DispersionStat=Pistola de dispersión
+EightballStat=Bola negra
+FlakCannonStat=Cañón antiaéreo
+GESBioRifleStat=Biorifle GES
+MinigunStat=Minipistola
+RazorjackStat=Cuchilla
+RifleStat=Rifle
+StingerStat=Tirador
+TotalStat=Total muertes
+LogEntryMsg=ANOTACIÓN EN EL REGISTRO: 
+
+[UPakSinglePlayer]
+GameName=Unreal: Regreso a Na Pali
+
+[GrenadeLauncher]
+PickupMessage=Tienes el lanzagranadas.
+ItemName=Lanzagranadas
+
+[Cloak]
+ExpireMessage=desactivado.
+PickupMessage=Tienes el dispositivo de ocultación.
+ItemName=Dispositivo de ocultación
+M_Activated=" activado"
+M_Deactivated=" desactivado"
+
+[CARifle]
+PickupMessage=Tienes el rifle de asalto.
+ItemName=Rifle de asalto
+
+[RocketLauncher]
+PickupMessage=Tienes el lanzacohetes.
+ItemName=Lanzacohetes
+
+[UPakChooseGameMenu]
+MenuList[0]="Regreso a Na Pali"
+MenuList[1]=Unreal
+MenuList[2]=Unreal
+
+[UPakDebugger]
+ItemName=Depurador UPak
+
+[UPakScubaGear]
+ItemName=Equipo de buceo
+PickupMessage=Has conseguido el equipo de buceo
+M_Deactivated=desactivado... Recargando.
+
+[UPakMaleOne]
+MenuName=Hombre 1
+
+[UPakFemaleOne]
+MenuName=Mujer 1
+
+[UPakFemaleTwo]
+MenuName=Mujer 2
+
+[UPakMaleThree]
+MenuName=Hombre 3
+
+[UPakMaleTwo]
+MenuName=Hombre 2
+
+[CARifleClip]
+PickupMessage=Tienes un cargador de 50 balas para el rifle de asalto.
+
+[GLAmmo]
+PickupMessage=Has conseguido 10 granadas.
+
+[RLAmmo]
+PickupMessage=Tienes 10 cohetes.
+
+[CompTablet]
+PickupMessage=Tienes la placa compacta.
+
+[GravityMatch]
+GameName=PartidaGravedad
+
+[CloakMatch]
+GameName=PartidaOcultación
+
+[TerranWeaponMatch]
+GameName=PartidaArmaTerrán
+
+[MarineMatch]
+GameName=PartidaMarina
+
+[UPakHUD]
+MultWeapSlotMsg=Pulsa el botón de selección de armas para cambiar de arma.
+
